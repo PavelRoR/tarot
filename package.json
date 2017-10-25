@@ -1,7 +1,7 @@
 {
   "name": "tarot",
   "version": "1.0.0",
-  "description": "Ленлинг на бесплатный интенсив по Таро",
+  "description": "Лендинг на бесплатный интенсив по Таро",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
