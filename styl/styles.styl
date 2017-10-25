@@ -1,6 +1,6 @@
 pink = #d56161
 gold = #A37816
-white = #ffffff,
+white = #ffffff
 light_white = #fbf7f7
 purple = #2f2632
 light_black = #141119
@@ -8,40 +8,41 @@ black = #000000
 
 @font-face {
     font-family: 'impact';
-    src: url('../img/fonts/impact.eot');
-    src: url('../img/fonts/impact.eot') format('embedded-opentype'),
-         url('../img/fonts/impact.woff2') format('woff2'),
-         url('../img/fonts/impact.woff') format('woff'),
-         url('../img/fonts/impact.ttf') format('truetype'),
+    src: url('../fonts/impact.eot');
+    src: url('../fonts/impact.eot') format('embedded-opentype'),
+         url('../fonts/impact.woff2') format('woff2'),
+         url('../fonts/impact.woff') format('woff'),
+         url('../fonts/impact.ttf') format('truetype'),
+         url('../fonts/impact.svg#impact') format('svg');
 }
 
 @font-face {
     font-family: 'OpenSansRegular';
-    src: url('../img/fonts/OpenSansRegular.eot');
-    src: url('../img/fonts/OpenSansRegular.eot') format('embedded-opentype'),
-         url('../img/fonts/OpenSansRegular.woff2') format('woff2'),
-         url('../img/fonts/OpenSansRegular.woff') format('woff'),
-         url('../img/fonts/OpenSansRegular.ttf') format('truetype'),
-         url('../img/fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../fonts/OpenSansRegular.woff') format('woff'),
+         url('../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
 }
 
 @font-face {
     font-family: 'OpenSansBold';
-    src: url('../img/fonts/OpenSansBold.eot');
-    src: url('../img/fonts/OpenSansBold.eot') format('embedded-opentype'),
-         url('../img/fonts/OpenSansBold.woff2') format('woff2'),
-         url('../img/fonts/OpenSansBold.woff') format('woff'),
-         url('../img/fonts/OpenSansBold.ttf') format('truetype'),
-         url('../img/fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+    src: url('../fonts/OpenSansBold.eot');
+    src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansBold.woff2') format('woff2'),
+         url('../fonts/OpenSansBold.woff') format('woff'),
+         url('../fonts/OpenSansBold.ttf') format('truetype'),
+         url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
 }
 @font-face {
     font-family: 'OpenSansExtraBold';
-    src: url('../img/fonts/OpenSansExtraBold.eot');
-    src: url('../img/fonts/OpenSansExtraBold.eot') format('embedded-opentype'),
-         url('../img/fonts/OpenSansExtraBold.woff2') format('woff2'),
-         url('../img/fonts/OpenSansExtraBold.woff') format('woff'),
-         url('../img/fonts/OpenSansExtraBold.ttf') format('truetype'),
-         url('../img/fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
+    src: url('../fonts/OpenSansExtraBold.eot');
+    src: url('../fonts/OpenSansExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansExtraBold.woff2') format('woff2'),
+         url('../fonts/OpenSansExtraBold.woff') format('woff'),
+         url('../fonts/OpenSansExtraBold.ttf') format('truetype'),
+         url('../fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
 }
 
 
@@ -52,6 +53,9 @@ black = #000000
 	box-sizing: border-box;
 a 
 	text-decoration none
+	
+.clfix
+	clear both
 	
 /*! Первый экран  */
 @import 'parts/first_screen'
