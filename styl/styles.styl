@@ -1,4 +1,4 @@
-pink = #F63D3D
+pink = #d56161
 gold = #A37816
 white = #ffffff,
 light_white = #fbf7f7
@@ -6,11 +6,54 @@ purple = #2f2632
 light_black = #141119
 black = #000000
 
+@font-face {
+    font-family: 'impact';
+    src: url('../img/fonts/impact.eot');
+    src: url('../img/fonts/impact.eot') format('embedded-opentype'),
+         url('../img/fonts/impact.woff2') format('woff2'),
+         url('../img/fonts/impact.woff') format('woff'),
+         url('../img/fonts/impact.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../img/fonts/OpenSansRegular.eot');
+    src: url('../img/fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../img/fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../img/fonts/OpenSansRegular.woff') format('woff'),
+         url('../img/fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../img/fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../img/fonts/OpenSansBold.eot');
+    src: url('../img/fonts/OpenSansBold.eot') format('embedded-opentype'),
+         url('../img/fonts/OpenSansBold.woff2') format('woff2'),
+         url('../img/fonts/OpenSansBold.woff') format('woff'),
+         url('../img/fonts/OpenSansBold.ttf') format('truetype'),
+         url('../img/fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansExtraBold';
+    src: url('../img/fonts/OpenSansExtraBold.eot');
+    src: url('../img/fonts/OpenSansExtraBold.eot') format('embedded-opentype'),
+         url('../img/fonts/OpenSansExtraBold.woff2') format('woff2'),
+         url('../img/fonts/OpenSansExtraBold.woff') format('woff'),
+         url('../img/fonts/OpenSansExtraBold.ttf') format('truetype'),
+         url('../img/fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
+}
+
+
 *
 	margin: 0;
 	padding: 0;
 	outline: 0;
 	box-sizing: border-box;
-
-/* Шапка */
+a 
+	text-decoration none
+	
+/*! Первый экран  */
+@import 'parts/first_screen'
+/*! Шапка */
 @import 'parts/header'
