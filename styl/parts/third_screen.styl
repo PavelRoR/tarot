@@ -1,0 +1,79 @@
+#third_screen
+    background white url(../img/third_screen.jpg)
+    background-position top center
+    background-repeat no-repeat
+    background-size cover
+    padding 60px 0
+    text-align center
+    font-family 'OpenSansBold', sans-serif
+    h3
+        font-size: 40px;
+        font-family: "Impact";
+        color: white;
+        line-height: 25px
+        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.75);
+        max-width 570px
+        margin 0 auto 60px
+        border-top 1px solid
+        border-bottom  1px solid
+        padding 21px 0
+    .button
+        display: inline-block;
+        margin-top: 35px
+        padding: 17px
+        border-radius:  3px
+        &:hover
+            color light_white
+            text-decoration: none
+.cards_row
+    margin-bottom: 60px
+    list-style: none
+
+.single_card
+    background-color: white
+    border: 1px solid #9e95a1
+    border-radius: 5px
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3)
+    height:  569px
+    width: 361px
+    padding: 15px
+    cursor pointer
+    position: relative
+    float: left
+    margin-left -168px
+    &:first-child
+        margin-left: 0
+        z-index: 5
+    &:nth-child(2)
+        z-index: 4
+    &:nth-child(3)
+        z-index: 3
+    &:nth-child(4)
+        z-index: 2
+    &:nth-child(5)
+        z-index: 1
+    &:nth-child(2) h5,
+    &:nth-child(4) h5
+        background-image: url(../img/number_black.jpg)
+.single_wrapper
+    padding: 0 40px 20px
+    border 1px solid gold 
+    border-radius: 5px
+    height: 100%
+    h5
+        background-image: url(../img/number_red.jpg)
+        background-position: center 18px
+        background-repeat: no-repeat
+        line-height: 5.2
+        color: white
+        font-size: 30px
+        font-family: 'OpenSansExtraBold';
+    ul
+        margin-top:  20px
+        li
+            list-style-image: url(../img/star.png)
+            text-align: left
+            font-family: 'OpenSansRegular';
+            font-size: 18px
+            color light_black
+            line-height: 25px
