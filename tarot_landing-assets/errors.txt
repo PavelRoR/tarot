@@ -1,3 +1,3 @@
-[Wed Oct 25 2017 23:15:46 GMT+0500 (RTZ 4 (зима))] layer "Вы чувствуете, что жизнь застыла на месте, вы словно в тупике, ": Expected end of input but "," found.
-[Wed Oct 25 2017 23:15:46 GMT+0500 (RTZ 4 (зима))] layer " Вы работаете «как проклятый», стараетесь делать все для семьи,": Expected end of input but "," found.
-[Wed Oct 25 2017 23:15:46 GMT+0500 (RTZ 4 (зима))] layer "info@mastervision.su ": Unsupported extension: su
+[Thu Oct 26 2017 14:42:55 GMT+0500 (RTZ 4 (зима))] layer "Вы чувствуете, что жизнь застыла на месте, вы словно в тупике, ": Expected end of input but "," found.
+[Thu Oct 26 2017 14:42:55 GMT+0500 (RTZ 4 (зима))] layer " Вы работаете «как проклятый», стараетесь делать все для семьи,": Expected end of input but "," found.
+[Thu Oct 26 2017 14:42:55 GMT+0500 (RTZ 4 (зима))] layer "info@mastervision.su ": Unsupported extension: su
