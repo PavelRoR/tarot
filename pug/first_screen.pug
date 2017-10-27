@@ -8,7 +8,7 @@ section#first_screen
 				h4 София Вюрстлин
 				.video_wrapper
 					.wrapper
-						iframe(src="", frameborder="0" title="Видео пока нет").preveiw
+						iframe(src="https://www.youtube.com/embed/nrNzFWZOfAI", frameborder="0").preveiw
 			.col-md-6
 				h4 с 27 ноября по 1 декабря 19:00 мск
 				.subscribe_block
@@ -18,6 +18,8 @@ section#first_screen
 							p.infront заполните форму 
 								br 
 								|  и получите видео-бонус 
+								br 
+								span.form_bonus “Сдвигаем любую ситуацию с мертвой точки”
 							p.infront_submit.hide
 							p.span_phone.hide
 							.email-block
@@ -28,8 +30,8 @@ section#first_screen
 								input(class="phone" maxlength="255" name="Contact[phone_number]" type="number" placeholder="+79333333333")
 							button(type="submit").button ЗАПИСАТЬСЯ
 							<!--Обязательный параметр. Не удалять и не изменять!-->
-							input(type="hidden" value="233" name="Contact[id_newsletter]")
+							input(type="hidden" value="235" name="Contact[id_newsletter]")
 							<!--API код канала рекламы-->
 							input(type="hidden" value="0" name="Contact[id_advertising_channel_page]")
 							.clfix
-							small.spam(data-class="politics") Политика конфиденциальности
+							small.spam(data-toggle="modal" data-target="#myModal") Политика конфиденциальности
