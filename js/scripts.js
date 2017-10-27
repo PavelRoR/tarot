@@ -27,9 +27,14 @@ $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
 
+/* Карты */ 
 
-
-
+// $('.single_card').click(function (e) {
+//   if ($(this).hasClass('up')) {
+//     $(this).removeClass(up)
+//   }
+//     $(this).addClass('up');
+// })
 
 
 
