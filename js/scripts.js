@@ -29,19 +29,13 @@ $('#myModal').on('shown.bs.modal', function () {
 
 /* Карты */ 
 
-// $('.single_card').click(function (e) {
-//   if ($(this).hasClass('up')) {
-//     $(this).removeClass(up)
-//   }
-//     $(this).addClass('up');
-// })
-
-
-
-
-
-
-
+$('.single_card').toggle(function(){
+  $('.single_card').removeClass('up');
+      $(this).addClass('up');
+},
+function(){
+      $(this).removeClass('up');
+})
 
 
 });
