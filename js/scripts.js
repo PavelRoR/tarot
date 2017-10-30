@@ -18,7 +18,7 @@ $(".phone-block", this).removeClass("hide");
 $(".infront", this).addClass("hide");
 $(".infront_submit", this).addClass("hide");
 $(".infront_submit", this).html("Зарегистрирован Ваш e-mail: " + g + " Бонус уже у Вас на почте").removeClass("hide");
-$(".span_phone", this).html("Введите свой номер телефона и мы напомним вам о начале интенсива").removeClass("hide"); if (h) { window.open("https://mastervision.su/verdezi/bonus.html");
+$(".span_phone", this).html("Введите свой номер телефона и мы напомним вам о начале интенсива").removeClass("hide"); if (h) { window.open("https://mastervision.su/fate_mistress/bonus.html");
   $(".span_phone", this).html("Ваш номер " + h + " зарегистрирован!") } });
 $(".phone-block input", this).keydown(function(a) { if ($.inArray(a.keyCode, [46, 8, 9, 27, 13, 110, 190, 107, 187]) !== -1 || (a.keyCode == 65 && (a.ctrlKey === true || a.metaKey === true)) || (a.keyCode >= 35 && a.keyCode <= 40)) { return } if ((a.shiftKey || (a.keyCode < 48 || a.keyCode > 57)) && (a.keyCode < 96 || a.keyCode > 105)) { a.preventDefault() } }) });
 
