@@ -1,16 +1,19 @@
 #video_testimonials
-    .carousel.slide(data-ride="carousel")#carousel_video
-        ol.carousel-indicators
-            li(data-target="#carousel_video" data-slide-to="0" class="active")
-            li(data-target="#carousel_video" data-slide-to="1")
-            li(data-target="#carousel_video" data-slide-to="2")
-        .carousel-inner(role="listbox")
-            .item.active
-                .carousel-caption
-                    iframe(src="https://www.youtube.com/embed/YiG6T6GSWBs?rel=0" frameborder="0" gesture="media" allowfullscreen)
-            .item
-                .carousel-caption
-                    iframe(src="https://www.youtube.com/embed/Ijx7PDX8BVw?rel=0" frameborder="0" gesture="media" allowfullscreen)
-            .item
-                .carousel-caption
-                    iframe(src="https://www.youtube.com/embed/jO63P4NZLNc?rel=0" frameborder="0" gesture="media" allowfullscreen)
+	.carousel.slide(data-ride="carousel")#carousel_video
+		ol.carousel-indicators
+			li(data-target="#carousel_video" data-slide-to="0" class="active")
+			li(data-target="#carousel_video" data-slide-to="1")
+			li(data-target="#carousel_video" data-slide-to="2")
+		.carousel-inner(role="listbox")
+			.item.active
+				.carousel-caption.video_wrapper
+					.wrapper
+						iframe(src="https://www.youtube.com/embed/YiG6T6GSWBs?rel=0" frameborder="0" gesture="media" allowfullscreen).video_testimonial
+			.item
+				.carousel-caption.video_wrapper
+					.wrapper
+						iframe(src="https://www.youtube.com/embed/Ijx7PDX8BVw?rel=0" frameborder="0" gesture="media" allowfullscreen).video_testimonial
+			.item
+				.carousel-caption.video_wrapper
+					.wrapper
+						iframe(src="https://www.youtube.com/embed/jO63P4NZLNc?rel=0" frameborder="0" gesture="media" allowfullscreen).video_testimonial
